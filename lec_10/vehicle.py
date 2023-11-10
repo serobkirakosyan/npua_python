@@ -5,5 +5,5 @@ class Vehicle:
         self.color = color
 
 
-    def str(self):
-        return self.model, self.year, self.color
+    def __str__(self):
+        return f"{self.model} {self.year} {self.color}"
